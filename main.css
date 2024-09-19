@@ -1,0 +1,21 @@
+
+
+body {
+    font-family: system-ui;
+    background: #F5B700;
+    color: #DC0073;
+    text-align: center;
+  }
+
+  article figure {
+    width: 600px;
+    border: 3px solid black;
+  }
+  
+  h1 {
+    color: #00A1E4;
+  }
+  
+  p {
+    background: #89FC00;
+  }
