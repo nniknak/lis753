@@ -1,0 +1,252 @@
+@font-face {
+    font-family: "blackout-midnight";
+    src: url("fonts/blackout_midnight-webfont.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "blackout-sunrise";
+    src: url("fonts/blackout_two_am-webfont.woff") format("woff");
+  }
+  
+  body {
+      font-family: blackout-midnight, sans-serif;
+      font-size: 1.2em;
+  }
+  
+  body.dark {
+      color:white;
+  }
+  
+  main {
+      text-align: center;
+      width: 600px;
+      max-width: 100%;
+      margin-left:auto;
+      margin-right: auto;
+  }
+  
+  /* maintain new lines in alt text */
+  img{
+      white-space:pre; 
+  }
+  
+  .flyer-img, 
+  .header-img,
+  video,
+  video[poster] {
+      display: block;
+      width: 100%;
+      line-height: 1.25em;
+
+  }
+  
+  
+  main p em {
+      color: rgb(31, 176, 0);
+      font-style: normal;
+  }
+  
+  .large-text {
+      font-size: 1.5em;
+  }
+  
+  hr {
+      border: none;
+      color:#000000;
+      background-color:#000000;
+      height:3px;
+  }
+  
+  h1 {
+      font-family: blackout-sunrise;
+      letter-spacing: -1px; 
+      font-size:3.5em;
+      line-height: 1.25em;
+   
+  }
+  
+  .inverted-font {
+      font-family: blackout-sunrise;
+  }
+  
+  h2 {
+      font-size: 2.3em;
+  }
+  ul.tailgate-list {
+      padding-left: 0;
+      list-style: none;
+      font-size: 1.7em;
+  }
+  
+  li.past-event s {
+      
+      /* color: rgb(201, 201, 201);  */
+      /* filter: grayscale(80%); */
+      /* text-decoration-color:  rgb(176, 176, 176);  */
+      text-decoration-color: black;
+  }
+  
+  .dark li.past-event s {
+      /* color: rgb(201, 201, 201);  */
+  opacity:.6;
+  text-decoration-color:  inherit;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 6px; 
+  }
+  
+  .dark li.color-dovetail.past-event s {
+      /* color: rgb(201, 201, 201);  */
+  opacity: .8;
+  }
+  
+  .text-muted {
+      color: rgb(147, 147, 147);
+      font-size: .8em;
+  }
+  
+  /* li.past-event s {
+     color: rgb(98, 98, 98); 
+     text-decoration: line-through;  
+  } */
+  
+  a.twitter-link {
+      color: rgb(30, 154, 238)    
+  }
+  
+  a.insta-link {
+      color: rgb(215, 58, 95)    
+  }
+  
+  a.strava-link {
+      color: rgb(252, 82, 2)    
+  }
+  
+  .color-green {
+     color: rgb(31, 176, 0); 
+  }
+  .color-guardians {
+      color: #114f;
+  }
+  
+  .dark .color-guardians {
+      color: #cd001e; 
+  }
+  
+  .color-angels {
+      color: #c10f;
+  }
+  
+  .dark .color-angels {
+      color: #862633;
+  }
+  
+  .color-rangers {
+      color: #026f;
+  }
+  
+  .dark .color-rangers {
+      color: #C0111F;
+  }
+  
+  .color-blue-jays {
+      color: #134A8E;
+  }
+  
+  .dark .color-blue-jays {
+      color: #116ee0;
+  }
+  
+  .color-cubs {
+      color: #33ef;
+  }
+  
+  .color-yankees {
+      color: rgb(10, 10, 47);
+  }
+  
+  .dark .color-yankees {
+      color: #C4CED3;
+  }
+  
+  .color-mariners {
+      color: #055f;
+  }
+  
+  .color-royals {
+      color: rgb(28, 133, 187);
+  }
+  
+  .color-d-backs {
+      color: rgb(145, 38, 39);
+  }
+  
+  .color-nationals {
+      color: #AB0003;
+  }
+  
+  .color-astros {
+      color: rgb(244, 145, 30);
+  }
+  
+  .color-marz {
+      color: rgb(255, 40, 0);
+  }
+  
+  .color-dovetail {
+      color: #ffb718;
+  }
+  
+  .color-tigers {
+      color: #FA4616;
+  }
+  .color-purple {
+      color: #DF00FF;
+  }
+  .color-light-purple {
+      color: #CE58F5;
+  }
+  .color-lightning {
+      color: color(display-p3 0.941 0.993 0.404);
+  }
+  .color-lightning-green {
+      color: color(display-p3 0.553 0.808 0.776);
+  }
+  .color-dodgers, .color-twins{
+      color: rgb(0, 121, 206);
+  }
+  
+  .color-twins {
+      color: #D31145;
+  }
+  
+  .color-pink {
+      color:rgb(455,0,128);
+  }
+
+  
+  /* div.inverted {
+      background-color: black;
+      width: 100%;
+      padding: 25px;
+  } */
+  
+  /* FAQ */
+  
+  div.faq h4 {
+      text-align:left;
+      font-size: 1.5em;
+      color: rgb(31, 176, 0); 
+      margin-bottom:0;
+  }
+  
+  div.faq h4 span.black {
+      color: black;
+  }
+  
+  div.faq p, div.faq ul {
+      text-align: left;
+      margin-top: 0;
+      font-family: Georgia;
+  }
+  
+ 
