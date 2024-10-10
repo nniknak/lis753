@@ -13,8 +13,8 @@ nav ul li{
 
 body {
     font-family: system-ui;
-    background: #F5B700;
-    color: #DC0073;
+    background: #ffffff;
+    color: #000000;
     text-align: center;
   }
 
@@ -24,9 +24,9 @@ body {
   }
   
   h1 {
-    color: #00A1E4;
+    color: black;
   }
   
   p {
-    background: #89FC00;
+    background: #ddf0c6;
   }
