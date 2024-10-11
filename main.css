@@ -1,41 +1,49 @@
-nav ul {
+.site-nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   display: inline-block;
   width: 100%;
-  background-color: #f8ebeb;
+  background-color: black;
   text-align: center;
 }
 
-nav ul li{
+.site-nav .site-nav-item { /* this is a class */
   float: left;
   padding: 5px;
   vertical-align: middle;
+}
+
+.site-nav .site-nav-item a {
   color: white;
+  text-decoration: none;
+}
+
+.site-nav .site-nav-item a:hover {
+  text-decoration: underline;
 }
 
 body {
     font-family: system-ui;
-    background: #b2ccd1;
     color: #000000;
     text-align: left;
   }
 
-  article figure {
-    width: 300px;
-    border: 3px solid black;
-    text-align: center;
-    padding: 5px;
-  }
-  
-  img {
-    width: 250px;
-  }
-  
-  h1 {
-    color: black;
-  }
-  
+article figure {
+  width: 300px;
+  border: 3px solid black;
+  text-align: center;
+  padding: 5px;
+}
 
+img {
+  width: 250px;
+}
+
+h1 {
+  color: black;
+}
+
+#special {
+  color: blue;
+}
