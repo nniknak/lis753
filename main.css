@@ -1,33 +1,41 @@
 nav ul {
-  background-color: aqua;
-  list-style: none;
-  padding: 5px;
-  width: 200px;
-  border: 2px solid MediumVioletRed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  background-color: #f8ebeb;
   text-align: center;
 }
 
 nav ul li{
-  border-bottom: 1px solid MediumVioletRed;
+  float: left;
   padding: 5px;
+  vertical-align: middle;
+  color: white;
 }
 
 body {
     font-family: system-ui;
-    background: #ffffff;
+    background: #b2ccd1;
     color: #000000;
-    text-align: center;
+    text-align: left;
   }
 
   article figure {
-    width: 600px;
+    width: 300px;
     border: 3px solid black;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  img {
+    width: 250px;
   }
   
   h1 {
     color: black;
   }
   
-  p {
-    background: #ddf0c6;
-  }
+
