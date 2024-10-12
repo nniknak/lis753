@@ -2,10 +2,13 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
   width: 100%;
-  background-color: black;
+  background-color: firebrick;
   text-align: center;
+  font-weight: 200;
 }
 
 .site-nav .site-nav-item { /* this is a class */
@@ -23,10 +26,17 @@
   text-decoration: underline;
 }
 
+h1{
+  text-align: center;
+}
+
 body {
     font-family: system-ui;
     color: #000000;
     text-align: left;
+    background-color: aliceblue;
+    height:100vh;
+    font-weight: 300;
   }
 
 article figure {
@@ -34,16 +44,38 @@ article figure {
   border: 3px solid black;
   text-align: center;
   padding: 5px;
+  background: white;
+  float: right;
+  font-weight: 100;
 }
 
 img {
   width: 250px;
 }
 
-h1 {
+h1{
   color: black;
+  font-size: 54px;
+  font-weight: 900;
 }
 
 #special {
-  color: blue;
+  color: firebrick;
+}
+
+footer{
+  padding: 0px;
+  border:solid firebrick;
+  width:100%;
+  background-color: firebrick;
+  margin:0px;
+  font-weight: 100;
+}
+
+.alignleft{
+  float:left;
+}
+
+.alignright{
+  float:right;
 }
