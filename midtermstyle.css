@@ -15,6 +15,63 @@ body {
     font-weight: 300;
   }
 
+nav{
+    margin-top:10px;
+    color:#6C0345;
+    text-align: center;
+}
+
+article{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h3{
+    font-weight:800;
+    line-height: 10px;
+}
+
+.intro{
+    font-weight:100;
+    font-style:oblique;
+}
+
+a{
+    color: #6C0345;
+}
+
+.yellow{
+    color:#F7C566;
+}
+
+figure {
+    margin: 20px; /* adjust as needed */
+    padding:10px;
+    float: right;
+    background-color:#6C0345;
+}
+/*
+.left{
+    float:left;
+    margin-left:-10px;
+    margin-right:30px;
+}
+*/
+
+img{
+    width:300px;
+}
+
+.map{
+    width: 100%;
+}
+
+figcaption{
+    font-weight:100;
+    color: white;
+    padding-top:10px;
+}
+
 #page-footer{
     background: #6C0345;
     color: #FFF8DC;
