@@ -9,6 +9,7 @@
   background-color: firebrick;
   text-align: center;
   font-weight: 200;
+  position: relative;
 }
 
 .site-nav .site-nav-item { /* this is a class */
@@ -40,7 +41,8 @@ body {
   }
 
 article figure {
-  width: 300px;
+  width: 20%;
+  height: auto;
   border: 3px solid black;
   text-align: center;
   padding: 5px;
@@ -50,7 +52,8 @@ article figure {
 }
 
 img {
-  width: 250px;
+  width: 100%;
+  height: auto;
 }
 
 h1{
