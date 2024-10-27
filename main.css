@@ -1,31 +1,43 @@
-.site-nav {
+/* the default is the small screen version */
+nav ul {
+  display: block;
+  justify-content: center;
+  background-color: firebrick;
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+  padding: 10px;
   gap: 30px;
-  width: 100%;
-  background-color: firebrick;
-  text-align: center;
   font-weight: 200;
-  position: relative;
+  width: 100%;
 }
 
-.site-nav .site-nav-item { /* this is a class */
-  float: left;
-  padding: 5px;
-  vertical-align: middle;
+/* editing the big one */
+@media screen and (min-width: 502px){
+  nav ul{
+    display: flex;
+    justify-content: center;
+    background-color: firebrick;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    gap: 30px;
+    font-weight: 200;
+  }
 }
 
-.site-nav .site-nav-item a {
+nav ul li{
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+nav ul a {
   color: white;
   text-decoration: none;
 }
 
-.site-nav .site-nav-item a:hover {
-  text-decoration: underline;
-}
+nav ul a:hover{
+  color: #bea6a1;
+} 
 
 h1{
   text-align: center;
@@ -38,7 +50,12 @@ body {
     background-color: aliceblue;
     height:100vh;
     font-weight: 300;
+    margin: 0px;
   }
+
+article{
+  margin: 10px;
+}
 
 article figure {
   width: 20%;
